@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>3D Cube</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div id="cube-container"></div>
+    <nav>
+        <div class="logo" ><a href="#" onclick="window.location.reload(true)">MyWebsite</a></div>
+        <ul class="nav-links">
+            <li><a onclick="nav_toogle()" href="#">Home</a></li>
+            <li><a onclick="nav_toogle()" href="#">About</a></li>
+            <li><a onclick="nav_toogle()" href="#">Services</a></li>
+            <li><a onclick="nav_toogle()" href="#">Contact</a></li>
+        </ul>
+        <div onclick="nav_toogle()" class="hamburger">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </nav>
+
+    <div class="content">
+        <div class="text">
+            <h1>Welcome</h1>
+            <h1>I'm a Web Designer</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta omnis molestias sint, dolor ipsa laudantium dolores eaque possimus magnam nesciunt doloribus explicabo, atque culpa quam eum voluptates? Eius, quas vitae.</p>
+            <ul>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+            </ul>
+            <a class="btn" href="#">SUBSCRIBE</a>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="script.js"></script>
+    </body>
+</html>
